@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #f1e8e896;
+    
+}
+
+.table_container{  
+    padding: 0;     
+    margin: 100px auto;   
+    width: 70vw;    
+    
+}
+
+.table_title{
+    font-size: 50px;
+    font-weight: 700;    
+    margin-bottom: 30px;
+    color: #fcf7f7;
+    text-shadow: 2px 3px 7px #4267b2;
+    text-decoration-line: underline;
+}
+
+.table_head{
+    text-align: center;
+    background-color: #4267b2;
+    height: 100px;
+    color: #fff;
+    border-radius: 20px;
+    
+    
+}
+
+.table_head tr th{
+    box-shadow: 1px 1px 15px  black;
+    border-radius: 20px;
+    
+}
+
+.table_body tr td{    
+    height: 50px;
+    text-align: center;   
+    border: 1px solid #4267b2;
+    background-color: #fff;
+    color: #4268b6;
+    font-size: 20px;
+    box-shadow: 1px 1px 15px  black;
+    overflow-y: hidden;
+    border-radius: 20px;
+    
+}
+.tbody_buttoms{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    width: 80px;
+    background-color: rgb(255, 252, 56);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;    
+    color: #000
+   }
+   
+  
+   
+   .button1:active {
+    background-color: rgb(255, 252, 56);
+    /*50, 168, 80*/    
+    transform: translateY(5px);
+    transition: 200ms;
+   }
+
+
+   .button2 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;   
+    color: hsl(0, 0%, 100%);
+   }
+  
+   
+   .button2:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+   
+    transform: translateY(5px);
+    transition: 200ms;
+   }
